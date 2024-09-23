@@ -1,13 +1,5 @@
-xpinyin
+xpinyin-plus
 ==========
-
-Translate Chinese hanzi to pinyin (拼音) by Python, 汉字转拼音
-
-.. image:: https://github.com/lxneng/xpinyin/workflows/Tests/badge.svg
-   :target: https://github.com/lxneng/xpinyin/actions?query=workflow%3ATests
-
-.. image:: https://img.shields.io/travis/lxneng/xpinyin.svg
-    :target: https://travis-ci.org/lxneng/xpinyin
 
 .. image:: https://img.shields.io/pypi/v/xpinyin.svg
     :target: https://pypi.python.org/pypi/xpinyin/
@@ -15,8 +7,12 @@ Translate Chinese hanzi to pinyin (拼音) by Python, 汉字转拼音
 .. image:: https://img.shields.io/pypi/dm/xpinyin.svg
     :target: https://pypi.python.org/pypi/xpinyin/
 
+xpinyin-plus 是在 xpinyin 基础上修改维护的 Python 包，提供汉字到拼音的转换。
 
-Install
+xpinyin-plus is a Python package modified and maintained based on xpinyin, offering conversion from Chinese characters to pinyin.
+
+
+Install 安装
 ----------
 
 Python version >= 3.6
@@ -26,14 +22,12 @@ Python version >= 3.6
     pip install -U xpinyin
 
 
-Python version < 3.6
+**xpinyin-plus 不再向 Python 版本低于 3.6 的用户提供支持，若您有该需求，请使用 xpinyin。**
 
-.. code-block:: python
-
-    pip install xpinyin==0.5.7
+**xpinyin-plus no longer provides support for users with Python versions below 3.6. If you require such support, please use xpinyin.**
 
 
-Usage
+Usage 使用方式
 -----
 
 .. code-block:: python
